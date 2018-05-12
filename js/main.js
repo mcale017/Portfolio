@@ -1,4 +1,5 @@
 ; (function () {
+// Lines 139 to 146 are what I edited out so that the nav bar stays the same at the top
 
 	'use strict';
 
@@ -135,12 +136,14 @@
 			if (scrlTop > 500 && scrlTop <= 2000) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
 			} else if (scrlTop <= 500) {
+				/*
 				if (header.hasClass('navbar-fixed-top')) {
 					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
 					setTimeout(function () {
 						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
 					}, 100);
 				}
+				*/
 			}
 
 		});
